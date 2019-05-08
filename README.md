@@ -46,8 +46,8 @@ Anaconda environment recommended here!
 
    ```
    usage: test.py [-h] 
-   							  [--content CONTENT] 
-   							  [--style STYLE]
+   					[--content CONTENT] 
+   	   			[--style STYLE]
                   [--output_name OUTPUT_NAME] 
                   [--patch_size PATCH_SIZE]
                   [--gpu GPU] 
@@ -73,8 +73,8 @@ Anaconda environment recommended here!
 
    ```
    usage: train.py [-h] 
-   								 [--batch_size BATCH_SIZE] 
-   								 [--epoch EPOCH]
+   					 [--batch_size BATCH_SIZE] 
+   					 [--epoch EPOCH]
                    [--patch_size PATCH_SIZE] 
                    [--gpu GPU]
                    [--learning_rate LEARNING_RATE] 

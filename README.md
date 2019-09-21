@@ -46,8 +46,8 @@ Anaconda environment recommended here!
 
    ```
    usage: test.py [-h] 
-   					[--content CONTENT] 
-   	   			[--style STYLE]
+                  [--content CONTENT] 
+                  [--style STYLE]
                   [--output_name OUTPUT_NAME] 
                   [--patch_size PATCH_SIZE]
                   [--gpu GPU] 
@@ -73,8 +73,8 @@ Anaconda environment recommended here!
 
    ```
    usage: train.py [-h] 
-   					 [--batch_size BATCH_SIZE] 
-   					 [--epoch EPOCH]
+                   [--batch_size BATCH_SIZE] 
+                   [--epoch EPOCH]
                    [--patch_size PATCH_SIZE] 
                    [--gpu GPU]
                    [--learning_rate LEARNING_RATE] 
@@ -104,7 +104,7 @@ Some results of content image and my cat (called Sora) will be shown here.
 
 # My Opinion
 
-The style-swap is implemented by a serious convolutional operation.I am a beginner of Pytorch, so I afraid that my implementation technique are too poor so that it caused  style-swap consuming too much gnu memory. I will be very appreciated if you can improve this implementation.Feel free to give me a PR.Thanks.
+The style-swap is implemented by a serious of convolutional operation.I am a beginner of Pytorch, so I afraid that my implementation technique are too poor so that it caused  style-swap consuming too much gpu memory. I will be very appreciated if you can improve this implementation.Feel free to give me a PR.Thanks.
 
 
-Also, as you wil know, [Adain](https://github.com/irasin/Pytorch_Adain_from_scratch) and [WCT](https://github.com/irasin/Pytorch_WCT) are more powerful than style-swap, check them if you are interested.
+Also, as you may know, [Adain](https://github.com/irasin/Pytorch_Adain_from_scratch) and [WCT](https://github.com/irasin/Pytorch_WCT) are more powerful than style-swap, check them if you are interested.
